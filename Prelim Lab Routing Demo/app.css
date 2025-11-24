@@ -1,0 +1,10 @@
+nav {
+  font-size: 25;
+  background-color: aquamarine;
+}
+
+nav a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  color: red;
+}
