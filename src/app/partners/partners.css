@@ -1,0 +1,28 @@
+.partners-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+}
+
+.partners-banner h1, .partners-banner p {
+  color: white;
+}
+
+.partners-banner button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 25px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Styling for the partners list heading */
+.partners-list h2 {
+  text-align: center;
+  margin: 40px 0 20px 0;
+  color: black;
+}

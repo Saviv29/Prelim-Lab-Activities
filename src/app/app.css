@@ -1,0 +1,26 @@
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Arranges links horizontally */
+  background-color: #333; /* Dark background */
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; /* Removes underline */
+}
+
+/* Change color on hover */
+nav li a:hover {
+  background-color: #555;
+}
+
+/* The highlight for the currently active link */
+.active-link {
+  background-color: #007bff; /* A nice blue color for the active tab */
+  color: white;
+}

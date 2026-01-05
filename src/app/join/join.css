@@ -1,0 +1,69 @@
+.join-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/cityscape.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+}
+
+.join-banner h1, .join-banner p {
+  color: white;
+}
+
+/* Styling for the form container */
+.join-form-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #f4f4f4; /* Light background for contrast */
+}
+
+.join-card {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px; /* Keeps the form from getting too wide */
+}
+
+.join-card h2 {
+    margin-bottom: 20px;
+    color: black;
+}
+
+.join-card form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.join-card form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.join-card form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+
+.join-card form button:hover {
+  background-color: #0056b3;
+}
+
+.login-link {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 0.9em;
+}

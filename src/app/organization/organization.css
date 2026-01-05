@@ -1,0 +1,44 @@
+.organization-banner {
+  /* Assuming a mountain image path in your assets folder */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/mountainscape.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+}
+
+.organization-banner h1, .organization-banner p {
+  color: white;
+}
+
+.organization-banner button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 25px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Styling for the main content heading */
+.organization-content h2 {
+  color: black;
+  margin: 40px 20px 10px 20px;
+  font-size: 2em;
+}
+
+.organization-content p {
+    margin: 0 20px 20px 20px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.free-gift-button {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px 20px 30px 20px;
+    font-weight: bold;
+}
